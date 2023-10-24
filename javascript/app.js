@@ -1,3 +1,5 @@
+//знакомимся на странице чата
+
 function askName() {
 
     let name = document.getElementById('name').value
@@ -13,6 +15,9 @@ function askName() {
     
 }
 
+
+//калькулятор
+
 function divide()
 {
     let x = document.getElementById("num1").value
@@ -25,6 +30,39 @@ function divide()
         return
     }
 
-    document.getElementById("rezultdiv").value = rezult
+    document.getElementById("rezult").value = rezult
+
+}
+
+function multiply()
+{
+    let x = document.getElementById("num1").value
+    let y = document.getElementById("num2").value
+
+    let rezult = x * y
+
+    document.getElementById("rezult").value = rezult
+
+}
+
+function sum()
+{
+    let x = document.getElementById("num1").value
+    let y = document.getElementById("num2").value
+
+    let rezult = x + y
+
+    document.getElementById("rezult").value = rezult
+
+}
+
+function subtract()
+{
+    let x = document.getElementById("num1").value
+    let y = document.getElementById("num2").value
+
+    let rezult = x - y
+
+    document.getElementById("rezult").value = rezult
 
 }
