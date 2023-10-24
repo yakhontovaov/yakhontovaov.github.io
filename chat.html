@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <title>Chat</title>
     <link rel="stylesheet" href="css/style.css">
-    <script src="app.js" defer></script>
+    <script src="./javascript/app.js" defer></script>
 </head>
 <body>
     <div class="container"> 
@@ -14,8 +14,17 @@
             <a href="chat.html">Чат</a>
         </nav>
         <main>
-            <input type="text" placeholder="enter message">
-            <button>enter</button>
+            <h3>
+                Давай знакомиться. В поле ниже введи свое имя, пожалуйста:
+            </h3>
+            <input type="text" placeholder="enter your name" id="name">
+            <button onclick="askName()">enter</button>
+            <p id="result"></p>
+            <p id="error"></p>
+            <h4>А здесь, ты можешь воспользоваться 
+                <a href="callc.html">Калькулятором</a>
+            </h4>
+            
         </main>
         <hr>
         <footer>
