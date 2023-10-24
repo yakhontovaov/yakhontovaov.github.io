@@ -26,7 +26,7 @@ function divide()
     let rezult = x / y
 
     if (y==0){
-        document.getElementById("rezultdiv").value = "На ноль делить нельзя"
+        document.getElementById("rezult").value = "На ноль делить нельзя"
         return
     }
 
