@@ -47,8 +47,11 @@ function multiply()
 
 function sum()
 {
-    let x = document.getElementById("num1").value
-    let y = document.getElementById("num2").value
+    //let x = document.getElementById("num1").value
+    //let y = document.getElementById("num2").value
+
+    let x = parseFloat(document.getElementById("num1").value);
+    let y = parseFloat(document.getElementById("num2").value);
 
     let rezult = x + y
 
